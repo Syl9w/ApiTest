@@ -5,5 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    baseUrl: "http://todo-app-barkend.herokuapp.com/",
+    specPattern: "cypress/integration/api-tests"
   },
 });
